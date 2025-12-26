@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e665ee77-97bb-4af8-ab23-5530abf6da59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Abstractdemo/Daughter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Abstractdemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Abstractdemo/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Abstractdemo/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Access/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Access/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Access/Subclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Cloning/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Cloning/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Collection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/ExceptionHandling/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/ExceptionHandling/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/ExceptionHandling/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Generics/Custom/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Generics/Custom/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Generics/CustomGenArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Generics/Customarraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Generics/GenericInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Generics/LambdaFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Generics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Generics/WildcardExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/Brake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/CDplayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/Powerengine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/extenddemo/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/extenddemo/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/extenddemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/extendemo2/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/extendemo2/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/extendemo2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/nested/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Interface/nested/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/Polymorphism/Objectprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/enumExample/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPs/src/enumExample/Basic.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/OOPs" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="37HUbZQpHytGflS2xCi3sZvYPMP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.largest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/boras/Downloads/DSA/Java-DSA",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="largest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="largest" />
+      <module name="Java-DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.largest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e665ee77-97bb-4af8-ab23-5530abf6da59" name="Changes" comment="" />
+      <created>1766559561533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766559561533</updated>
+    </task>
+    <servers />
+  </component>
+</project>
