@@ -5,7 +5,7 @@ public class A {
     String name;
     int[] arr;
 
-    public int getNum() {
+    public int getNum()  {
         return num;
     }
 
