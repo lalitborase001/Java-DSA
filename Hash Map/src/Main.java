@@ -2,15 +2,12 @@ import javax.swing.text.html.parser.Entity;
 import java.util.HashMap;
 import java.util.HashSet;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 //        private Entity entities;
 //        public MapUsingHash() {
 //            entities = new Entity[100];
 //        }
-
 //        public void put(String key, String value) {
 //            int hash = Math.abs(key.hashCode() % entities.length);
 //            entities[hash] = new Entity(key, value); // overriding
@@ -38,9 +35,6 @@ public class Main {
 //                this.value = value;
 //            }
 //        }
-
-
-
 //        String name = "Lalit";
 //        Integer a = 234;
 //        System.out.println(a.hashCode());
