@@ -1,11 +1,11 @@
 public class SB {
     public static void main(String[] args) {
-        String[] word1 = {"ab", "c"};
-        StringBuilder sb = new StringBuilder();
-        for (String par : word1){
-            sb.append(par);
-        }
-        System.out.println(sb.toString());
+        String word1 = "ab, c";
+        StringBuilder sb = new StringBuilder(word1);
+//        for (String par : word1){
+//            sb.append(par);
+//        }
+//        System.out.println(sb.toString());
 //        for (int i = 0; i < 26; i++) {
 //            char ch = (char)('a' + i);
 //            sb.append(ch);
@@ -13,10 +13,10 @@ public class SB {
 //
 //        System.out.println(sb.toString());
 //
-//        sb.reverse();
+        sb.reverse();
 //        sb.delete(  4 , 8);
-//
-//        System.out.println(sb);
+
+        System.out.println(sb);
 
     }
 }

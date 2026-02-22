@@ -7,14 +7,23 @@ public class moveZeroes {
         System.out.println(Arrays.toString(nums));
     }
     public static void moveZeroes(int[] nums) {
-        int insertPos = 0;
-        for (int num : nums) {
-            if (num != 0) {
-                nums[insertPos++] = num;
+//        int insertPos = 0;
+//        for (int num : nums) {
+//            if (num != 0) {
+//                nums[insertPos++] = num;
+//            }
+//        }
+//        while (insertPos < nums.length) {
+//            nums[insertPos++] = 0;
+//        }
+        int count = 0;
+        for (int ele : nums){
+            if (ele != 0){
+                nums[count++] = ele;
             }
         }
-        while (insertPos < nums.length) {
-            nums[insertPos++] = 0;
+        while(count < nums.length){
+            nums[count++] = 0;
         }
     }
 }

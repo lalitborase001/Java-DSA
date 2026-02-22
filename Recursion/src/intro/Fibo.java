@@ -6,11 +6,15 @@ public class Fibo {
         System.out.println(ans);
     }
 
-    static int fibo(int n) {
-        // base condition
-        if (n < 2) {
-            return n;
+    public static int fibo(int n) {
+        if(n<=1)  return 1;
+        int[] dp = new int[3];
+        dp[0] = 0; dp[1] = 1;
+        for(int i =2;i<=n;i++){
+            dp[2] = dp[0]+dp[1];
+            dp[0] = dp[1];
+            dp[1] = dp[2];
         }
-        return fibo(n-1) + fibo(n-2);
+        return dp[2];
     }
 }
