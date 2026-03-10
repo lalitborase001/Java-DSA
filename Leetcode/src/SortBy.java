@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class SortBy {
     public int[] sortByBits(int[] arr) {
         int n = arr.length;
