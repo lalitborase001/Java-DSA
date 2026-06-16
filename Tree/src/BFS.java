@@ -31,4 +31,4 @@ class BFS {
       result.add(currentLevel);
     }
     return result;
-  };
+  }
