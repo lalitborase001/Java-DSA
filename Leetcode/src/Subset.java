@@ -8,17 +8,17 @@ public class Subset {
         System.out.println(ans);
     }
     public static List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> outer = new ArrayList<>();
-        outer.add(new ArrayList<>());
-        for (int arr: nums){
-            int n = outer.size();
-            for (int i = 0; i < n; i++) {
-                List<Integer> internal = new ArrayList<>(outer.get(i));
-                internal.add(arr);
-                outer.add(internal);
-            }
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+        backtrack(nums,0,list,result);
+        return result;
+    }
+    public static void backtrack(int[] nums, int index,List<Integer> list,List<List<Integer>> result) {
+        result.add(new ArrayList<>(list));
+        for(int i = index; i < nums.length; i++) {
+            list.add(nums[i]);
+            backtrack(nums, i + 1, list, result);
+            list.remove(list.size() - 1);
         }
-
-        return outer;
     }
 }
