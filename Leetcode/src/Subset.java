@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Subset {
     public static void main(String[] args) {
-        int[] nums = {1,2,3};
+        int[] nums = {1,2,2};
         List<List<Integer>> ans = subsets(nums);
         System.out.println(ans);
     }
@@ -16,6 +16,9 @@ public class Subset {
     public static void backtrack(int[] nums, int index,List<Integer> list,List<List<Integer>> result) {
         result.add(new ArrayList<>(list));
         for(int i = index; i < nums.length; i++) {
+            if(i > index && nums[i] == nums[i - 1]) {
+                continue;
+            }
             list.add(nums[i]);
             backtrack(nums, i + 1, list, result);
             list.remove(list.size() - 1);
